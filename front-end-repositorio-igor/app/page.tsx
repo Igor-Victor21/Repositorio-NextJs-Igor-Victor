@@ -2,32 +2,47 @@ import Navbar from "./components/nav";
 
 export default function Home() {
   return (
-   <>
-   <Navbar/>
-    <section id="inicio" className=" scroll-mt-[87px] w-screen h-screen bg-home-gradient">
-     {/* <h1 className="mt-15 bg-transparent">teste section 1</h1>  */}
-    </section>
-    
-    <section id="projetos" className=" scroll-mt-[87px] w-screen h-screen bg-gray-500">
-     <h1>teste section 2</h1> 
-    </section>
-    
-    <section id="sobreMim" className=" scroll-mt-[87px] w-screen h-screen bg-blue-500">
-     <h1>teste section 3</h1> 
-    </section>
-    
-    <section id="tecnologias" className=" scroll-mt-[87px] w-screen h-screen bg-green-500">
-     <h1>teste section 4</h1> 
-    </section>
-    
-    <section id="servicos" className=" scroll-mt-[87px] w-screen h-screen bg-pink-500">
-     <h1>teste section 5</h1> 
-    </section>
-    
-    <section id="contato" className=" scroll-mt-[87px] w-screen h-screen bg-yellow-500">
-     <h1>teste section 6</h1> 
-    </section>
-    
-   </>
+    <>
+      <Navbar />
+      <section id="inicio" className=" scroll-mt-[87px] w-screen h-screen bg-pages-gradient">
+        {/* <h1 className="mt-15 bg-transparent">teste section 1</h1>  */}
+      </section>
+
+      <section id="projetos" className=" scroll-mt-[87px] w-screen h-screen bg-pages-gradient">
+        {/* Título página */}
+        <div className="flex items-center justify-center w-screen h-[87px] border-b-3 border-[#F5F5F5] border-t-3 border-[#F5F5F5]">
+          <h1 className="text-[#F5F5F5] text-center font-bold text-[40px] border-b-2 border-[#F5F5F5]">Projetos</h1>
+        </div>
+      </section>
+
+      <section id="sobreMim" className=" scroll-mt-[87px] w-screen h-screen bg-pages-gradient">
+        {/* Título página */}
+        <div className="flex items-center justify-center w-screen h-[87px] border-b-3 border-[#F5F5F5] border-t-3 border-[#F5F5F5]">
+          <h1 className="text-[#F5F5F5] text-center font-bold text-[40px] border-b-2 border-[#F5F5F5]">Sobre Mim</h1>
+        </div>
+      </section>
+
+      <section id="tecnologias" className=" scroll-mt-[87px] w-screen h-screen bg-pages-gradient">
+        {/* Título página */}
+        <div className="flex items-center justify-center w-screen h-[87px] border-b-3 border-[#F5F5F5] border-t-3 border-[#F5F5F5]">
+          <h1 className="text-[#F5F5F5] text-center font-bold text-[40px] border-b-2 border-[#F5F5F5]">Tecnologias</h1>
+        </div>
+      </section>
+
+      <section id="servicos" className=" scroll-mt-[87px] w-screen h-screen bg-pages-gradient">
+        {/* Título página */}
+        <div className="flex items-center justify-center w-screen h-[87px] border-b-3 border-[#F5F5F5] border-t-3 border-[#F5F5F5]">
+          <h1 className="text-[#F5F5F5] text-center font-bold text-[40px] border-b-2 border-[#F5F5F5]">Serviços</h1>
+        </div>
+      </section>
+
+      <section id="contato" className=" scroll-mt-[87px] w-screen h-screen bg-pages-gradient">
+        {/* Título página */}
+        <div className="flex items-center justify-center w-screen h-[87px] border-b-3 border-[#F5F5F5] border-t-3 border-[#F5F5F5]">
+          <h1 className="text-[#F5F5F5] text-center font-bold text-[40px] border-b-2 border-[#F5F5F5]">Contato</h1>
+        </div>
+      </section>
+
+    </>
   );
 }
