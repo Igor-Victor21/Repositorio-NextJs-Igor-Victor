@@ -21,17 +21,15 @@ body {
   }
 }
 
-@layer utilities {
   .bg-home-gradient {
     background: linear-gradient(
       132deg,
-      #b3000093 0%,
-      #0D0D0D 48%,
-      #600707 99%
+      rgba(179, 0, 0, 0.867) 0%,
+      rgba(13, 13, 13, 0.867) 48%,
+      rgba(96, 7, 7, 0.867) 99%
     );
-    opacity: 0.867; /* 86.67% do gradiente */
   }
-}
+
 
 @layer utilities {
   .bg-pages-gradient {
