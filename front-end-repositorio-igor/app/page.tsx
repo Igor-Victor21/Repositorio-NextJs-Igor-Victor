@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-
+import { useRouter } from "next/navigation"
 
 import IconLinkedin from "./assets/IconLinkedin.png"
 import IconGithub from "./assets/IconGithub.png"
@@ -10,13 +10,19 @@ import IconWhatsApp from "./assets/IconWhatsapp.png"
 import IconCurriculo from "./assets/IconCurriculo.png"
 import IconDeveloper from "./assets/IconDeveloper.png"
 import EcommerceImage from "./assets/E-commerceProject.png"
+import ProjectAdmin from "./assets/ProjectAdmin.png"
+import ProjectMobile from "./assets/ProjectMobile.png"
+
 
 
 
 
 import Navbar from "./components/nav";
+import ButtonProject from "./components/buttonsProject"
 
 export default function Home() {
+
+  const router = useRouter()
 
   const wppNumber = "5541987446352"
 
@@ -104,43 +110,72 @@ export default function Home() {
         {/* Container Project Cards  */}
         <div className="flex flex-col items-center justify-center mt-[20px] md:flex-row">
           {/* Cards 01 */}
-          <div className="flex flex-col items-center w-[350px] h-[648px] bg-[#3A3A3A] m-[15px] rounded-[16px] ">
-            <div className="m-[15px]">
-              <h2 className="text-center text-[#F5F5F5] font-bold text-[18px]">E-COMMERCE</h2>
-              <span className="text-[#F5F5F5] border-b-[1.2px] border-[#F5F5F5] text-[14px]">PROJETO PARA VC BRINQUEDOS ESPUMADOS</span>
+          <div className="flex flex-col items-center w-[350px] h-[600px] md:w-[450px] md:h-[648px] bg-[#3A3A3A] m-[15px] rounded-[16px] ">
+            <div className="flex items-center justify-center flex-col my-[20px] md:my-0">
+              <div className="m-[15px]">
+                <h2 className="text-center text-[#F5F5F5] font-bold text-[18px]">E-COMMERCE</h2>
+                <span className="text-[#F5F5F5] border-b-[1.2px] border-[#F5F5F5] text-[14px]">PROJETO PARA VC BRINQUEDOS ESPUMADOS</span>
+              </div>
+              {/* Image */}
+              <Image src={EcommerceImage} alt="ImageProject" className="w-[95%] ml-[15px]" />
+              <hr className="border-[1.5px] border-[#F5F5F5] w-[90%] mt-[20px]" />
+              <div className="flex flex-col mt[20px] mb-[20px] h-[151px]">
+                <h2 className="text-[18px] text-[#F5F5F5] text-center font-bold mt-[20px] mb-[20px]">Tecnologias Utilizadas</h2>
+                <li className="text-[14px] font-normal text-[#FFFFFF]">Next.Js & Tailwind</li>
+                <li className="text-[14px] font-normal text-[#FFFFFF]">API Node.Js & Express</li>
+                <li className="text-[14px] font-normal text-[#FFFFFF]">Banco de Dados Firebase</li>
+              </div>
+              <ButtonProject />
             </div>
-            {/* Image */}
-              <Image src={EcommerceImage} alt="ImageProject" className="w-[95%] ml-[15px]"/>
-            <hr className="border-[1.5px] border-[#F5F5F5] w-[90%]"/>
           </div>
 
           {/* Cards 02 */}
-          <div className="flex flex-col items-center w-[350px] h-[648px] bg-[#3A3A3A] m-[15px] rounded-[16px] ">
-            <div className="m-[15px]">
-              <h2 className="text-center text-[#F5F5F5] font-bold text-[18px]">PAINEL ADMINISTRATIVO</h2>
-              <span className="text-[#F5F5F5] border-b-[1.2px] border-[#F5F5F5] text-[14px]">PROJETO PARA VC BRINQUEDOS ESPUMADOS</span>
+          <div className="flex flex-col items-center w-[350px] h-[600px] md:w-[450px] md:h-[648px] bg-[#3A3A3A] m-[15px] rounded-[16px] ">
+            <div className="flex items-center justify-center flex-col my-[20px] md:my-0">
+              <div className="m-[15px]">
+                <h2 className="text-center text-[#F5F5F5] font-bold text-[18px]">PAINEL ADMINISTRATIVO</h2>
+                <span className="text-[#F5F5F5] border-b-[1.2px] border-[#F5F5F5] text-[14px]">PROJETO PARA VC BRINQUEDOS ESPUMADOS</span>
+              </div>
+              {/* Image */}
+              <Image src={ProjectAdmin} alt="ImageProject" className="w-[95%] ml-[15px]" />
+              <hr className="border-[1.5px] border-[#F5F5F5] w-[90%] mt-[20px]" />
+              <div className="flex flex-col mt[20px] mb-[20px] md:h-[151px]">
+                <h2 className="text-[18px] text-[#F5F5F5] text-center font-bold mt-[20px] mb-[20px]">Tecnologias Utilizadas</h2>
+                <li className="text-[14px] font-normal text-[#FFFFFF]">Vite, React & CSS3</li>
+                <li className="text-[14px] font-normal text-[#FFFFFF]">API Node.Js & Express</li>
+                <li className="text-[14px] font-normal text-[#FFFFFF]">Autentificação JWT</li>
+                <li className="text-[14px] font-normal text-[#FFFFFF]">Banco de Dados Firebase</li>
+              </div>
+              <ButtonProject />
             </div>
-            {/* Image */}
-              <Image src={EcommerceImage} alt="ImageProject" className="w-[95%] ml-[15px]"/>
-            <hr className="border-[1.5px] border-[#F5F5F5] w-[90%]"/>
           </div>
 
           {/* Cards 03 */}
-          <div className="flex flex-col items-center w-[350px] h-[648px] bg-[#3A3A3A] m-[15px] rounded-[16px] ">
-            <div className="m-[15px]">
-              <h2 className="text-center text-[#F5F5F5] font-bold text-[18px]">APP INTERNO - MOBILE</h2>
-              <span className="text-[#F5F5F5] border-b-[1.2px] border-[#F5F5F5] text-[14px]">PROJETO PARA VC BRINQUEDOS ESPUMADOS</span>
+          <div className="flex flex-col items-center w-[350px] h-[600px] md:w-[450px] md:h-[648px] bg-[#3A3A3A] m-[15px] rounded-[16px] ">
+            <div className="flex items-center justify-center flex-col my-[20px] md:my-0">
+              <div className="m-[15px]">
+                <h2 className="text-center text-[#F5F5F5] font-bold text-[18px]">APP INTERNO - MOBILE</h2>
+                <span className="text-[#F5F5F5] border-b-[1.2px] border-[#F5F5F5] text-[14px]">PROJETO PARA VC BRINQUEDOS ESPUMADOS</span>
+              </div>
+              {/* Image */}
+              <Image src={ProjectMobile} alt="ImageProject" className="w-[95%] ml-[15px]" />
+              <hr className="border-[1.5px] border-[#F5F5F5] w-[90%] mt-[20px]" />
+              <div className="flex flex-col mt[20px] mb-[20px]">
+                <h2 className="text-[18px] text-[#F5F5F5] text-center font-bold mt-[20px] mb-[20px]">Tecnologias Utilizadas</h2>
+                <li className="text-[14px] font-normal text-[#FFFFFF]">Flutter & Dart</li>
+                <li className="text-[14px] font-normal text-[#FFFFFF]">API Node.Js & Express</li>
+                <li className="text-[14px] font-normal text-[#FFFFFF]">Autentificação JWT</li>
+                <li className="text-[14px] font-normal text-[#FFFFFF]">Banco de Dados MongoDB</li>
+              </div>
+              <ButtonProject />
             </div>
-            {/* Image */}
-              <Image src={EcommerceImage} alt="ImageProject" className="w-[95%] ml-[15px]"/>
-            <hr className="border-[1.5px] border-[#F5F5F5] w-[90%]"/>
           </div>
         </div>
-
         {/* Container button see more */}
-        <div>
-          <button>VER MAIS</button>
+        <div className="flex justify-end items-end h-full relative">
+          <button onClick={() => router.push("./projects")} className="text-[#F5F5F5] text-[18px] font-semibold border-b-[1.2px] border-[#F5F5F5] m-[20px] cursor-pointer hover:tracking-wide duration-200">VER MAIS {">>>"}</button>
         </div>
+
       </section>
 
       <section id="sobreMim" className=" scroll-mt-[87px] w-full h-full bg-pages-gradient">
