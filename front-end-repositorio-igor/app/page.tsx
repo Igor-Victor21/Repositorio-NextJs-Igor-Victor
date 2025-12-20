@@ -38,32 +38,32 @@ export default function Home() {
       {/* Container Text */}
       <section id="inicio" className="scroll-mt-[87px] flex w-full h-full min-h-screen bg-home-gradient">
         <div className="flex flex-col w-full h-auto px-4 my-[143px] bg-transparent md:max-w-[1123px] md:mx-[101px] md:my-[143px] md:px-0">
-          <p className="text-[#F5F5F5] text-[20px]">
-            Desenvolvo soluções <strong>web e mobile</strong> que transformam ideias em produtos reais.
+          <p className="text-[#D5D5D5] text-[20px]">
+            Desenvolvo soluções <span className="font-bold text-[#F5F5F5]">web e mobile</span> que transformam ideias em <span className="font-bold text-[#F5F5F5]">produtos reais.</span>
           </p>
 
           <br />
 
-          <p className="text-[#C5C5C5]">
+          <p className="text-[#D5D5D5]">
             Olá, prazer! Me chamo <br />
           </p>
 
           <p className="text-[#F5F5F5] text-[18px]">
-            <strong>Igor Victor da Silva</strong>
+            <span className="font-bold">Igor Victor da Silva</span>
           </p>
 
           <br />
           <br />
 
           <p className="text-[#F5F5F5] text-[26px]">
-            <strong>Desenvolvedor Full-Stack</strong>
+            <span className="font-bold">Desenvolvedor Full-Stack</span>
           </p>
 
           <br />
           <br />
 
-          <p className="text-[#F5F5F5] text-[18px]">
-            Atuo como Desenvolvedor Full Stack focado em <strong>Node.js, Express, Next.js e React</strong>. Crio aplicações
+          <p className="text-[#D5D5D5] text-[18px]">
+            Atuo como Desenvolvedor Full Stack focado em <span className="font-bold text-[#F5F5F5]">Node.js, Express, Next.js e React</span>. Crio aplicações
             completas para web, desktop e mobile, estruturando backend, banco de dados e a camada
             de segurança necessária para garantir operações online com confiança.<br /><br />
             Tenho experiência com SQL Server, Firebase, APIs REST, Git e boas práticas de versionamento. Além
@@ -175,13 +175,56 @@ export default function Home() {
         <div className="flex justify-end items-end h-full relative">
           <button onClick={() => router.push("./projects")} className="text-[#F5F5F5] text-[18px] font-semibold border-b-[1.2px] border-[#F5F5F5] m-[20px] cursor-pointer hover:tracking-wide duration-200">VER MAIS {">>>"}</button>
         </div>
-
       </section>
 
       <section id="sobreMim" className=" scroll-mt-[87px] w-full h-full bg-pages-gradient">
         {/* Título página */}
         <div className="flex items-center justify-center w-full h-[87px] border-b-3 border-[#F5F5F5] border-t-3 border-[#F5F5F5]">
           <h1 className="text-[#F5F5F5] text-center font-bold text-[40px] border-b-2 border-[#F5F5F5]">Sobre Mim</h1>
+        </div>
+
+        {/* Container Text */}
+        <div className="flex flex-col md:w-full md:h-full items-center">
+          {/* Area Text*/}
+          <div className="flex flex-col p-4 justify-center m-[20px]">
+            <p className="text-[#D5D5D5] indent-4 font-normal text-[18px] leading-[160%]" >
+              Olá! Sou <span className="font-semibold text-[#F5F5F5]">Igor Victor da Silva</span>, <span className="font-bold text-[#F5F5F5]">Desenvolvedor Full Stack</span> formado em 2025 em Análise e <br className="hidden lg:block" />
+              Desenvolvimento de Sistemas pelo SENAI. Atuo no desenvolvimento de aplicações completas <br className="hidden lg:block" />
+              para web, desktop e mobile, trabalhando tanto no <span className="font-bold text-[#F5F5F5]">Backend</span> quanto no <span className="font-bold text-[#F5F5F5]">Frontend</span> com
+              <span className="font-extrabold text-[#F5F5F5]"> Node.js,<br className="hidden lg:block" />
+                Express, React, Next.js e Flutter.</span> Também possuo conhecimento sólido em Java e experiência <br className="hidden lg:block" />
+              com bancos de dados como <span className="font-bold text-[#F5F5F5]">SQL Server, Firebase e MongoDB.</span>
+              <br /><br />
+              <span className="font-bold text-[#F5F5F5]">Soluções que desenvolvo:</span>
+            </p>
+            <ul className="list-disc pl-8 text-[#D5D5D5] text-[18px] leading-[160%]">
+              <li>CRUDs eficientes com persistência real de dados</li>
+              <li>Autenticação segura (JWT + proteção HttpOnly)</li>
+              <li>Integração com serviços externos (Google Auth)</li>
+              <li>Painéis administrativos completos para operação</li>
+              <li>APIs REST padronizadas e documentadas</li>
+              <li>Deploy em infraestrutura na nuvem</li>
+              <li>Boas práticas, escalabilidade e monitoramento contínuo</li>
+            </ul>
+            <br /><br />
+            <p className="text-[#D5D5D5] indent-4 font-normal text-[18px] leading-[160%]">
+              Já possuo <span className="text-[#F5F5F5] font-bold">experiência em projetos reais,</span> Aplicando com <span className="text-[#F5F5F5] font-bold">boas práticas,</span> foco em <br className="hidden lg:block" />
+              <span className="text-[#F5F5F5] font-bold">performance</span> e <span className="text-[#F5F5F5] font-bold">escalabilidade</span> para entregar soluções estáveis e de alto valor para o negócio.
+            </p>
+            <br /><br />
+            <p className="text-[#D5D5D5] indent-4 font-normal text-[18px] leading-[160%]">
+              Tenho facilidade em <span className="text-[#F5F5F5] font-bold">colaboração, comunicação</span> e <span className="text-[#F5F5F5] font-bold">trabalho em equipe,</span> acreditando que os <br className="hidden lg:block" />
+              melhores produtos nascem da união de ideias e de uma cultura de aprendizado. Sou movido <br className="hidden lg:block" />
+              pela busca constante de conhecimento e adoro transformar desafios em crescimento tanto <br className="hidden lg:block" />
+              para mim quanto para o produto que estou construindo.
+            </p>
+            <br /><br />
+            <p className="text-[#D5D5D5] indent-4 font-normal text-[18px] leading-[160%]">
+              Quero aplicar <span className="text-[#F5F5F5] font-bold">meus conhecimentos</span> e minha <span className="text-[#F5F5F5] font-bold">capacidade de lidar com pessoas</span> para <br className="hidden lg:block" />
+              proporcionar <span className="text-[#F5F5F5] font-bold">o melhor atendimento</span> aos seus clientes.<br className="hidden lg:block" />
+              <span className="text-[#F5F5F5] font-bold"></span>
+            </p>
+          </div>
         </div>
       </section>
 
