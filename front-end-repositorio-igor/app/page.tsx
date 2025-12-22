@@ -13,12 +13,9 @@ import EcommerceImage from "./assets/E-commerceProject.png"
 import ProjectAdmin from "./assets/ProjectAdmin.png"
 import ProjectMobile from "./assets/ProjectMobile.png"
 
-
-
-
-
 import Navbar from "./components/nav";
 import ButtonProject from "./components/buttonsProject"
+import ContainerTec from "./components/containerTec"
 
 export default function Home() {
 
@@ -100,7 +97,7 @@ export default function Home() {
       </section>
 
       {/* Section Project */}
-      <section id="projetos" className=" scroll-mt-[87px] w-full h-full bg-pages-gradient">
+      <section id="projetos" className=" scroll-mt-[87px] w-full h-full min-h-screen bg-pages-gradient">
 
         {/* Title page */}
         <div className="flex items-center justify-center w-full h-[87px] border-b-3 border-[#F5F5F5] border-t-3 border-[#F5F5F5]">
@@ -177,7 +174,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="sobreMim" className=" scroll-mt-[87px] w-full h-full bg-pages-gradient">
+      <section id="sobreMim" className=" scroll-mt-[87px] w-full h-full min-h-screen bg-pages-gradient">
         {/* Título página */}
         <div className="flex items-center justify-center w-full h-[87px] border-b-3 border-[#F5F5F5] border-t-3 border-[#F5F5F5]">
           <h1 className="text-[#F5F5F5] text-center font-bold text-[40px] border-b-2 border-[#F5F5F5]">Sobre Mim</h1>
@@ -228,21 +225,22 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="tecnologias" className=" scroll-mt-[87px] w-full h-full bg-pages-gradient">
+      <section id="tecnologias" className="scroll-mt-[87px] w-full h-full min-h-screen bg-pages-gradient">
         {/* Título página */}
         <div className="flex items-center justify-center w-full h-[87px] border-b-3 border-[#F5F5F5] border-t-3 border-[#F5F5F5]">
           <h1 className="text-[#F5F5F5] text-center font-bold text-[40px] border-b-2 border-[#F5F5F5]">Tecnologias</h1>
         </div>
+          <ContainerTec/>
       </section>
 
-      <section id="servicos" className=" scroll-mt-[87px] w-full h-full bg-pages-gradient">
+      <section id="servicos" className=" scroll-mt-[87px] w-full h-full min-h-screen bg-pages-gradient">
         {/* Título página */}
         <div className="flex items-center justify-center w-full h-[87px] border-b-3 border-[#F5F5F5] border-t-3 border-[#F5F5F5]">
           <h1 className="text-[#F5F5F5] text-center font-bold text-[40px] border-b-2 border-[#F5F5F5]">Serviços</h1>
         </div>
       </section>
 
-      <section id="contato" className=" scroll-mt-[87px] w-full h-full bg-pages-gradient">
+      <section id="contato" className=" scroll-mt-[87px] w-full h-full min-h-screen bg-pages-gradient">
         {/* Título página */}
         <div className="flex items-center justify-center w-full h-[87px] border-b-3 border-[#F5F5F5] border-t-3 border-[#F5F5F5]">
           <h1 className="text-[#F5F5F5] text-center font-bold text-[40px] border-b-2 border-[#F5F5F5]">Contato</h1>
