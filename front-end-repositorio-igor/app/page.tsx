@@ -16,6 +16,7 @@ import ProjectMobile from "./assets/ProjectMobile.png"
 import Navbar from "./components/nav";
 import ButtonProject from "./components/buttonsProject"
 import ContainerTec from "./components/containerTec"
+import ContainerService from "./components/containerService"
 
 export default function Home() {
 
@@ -238,6 +239,7 @@ export default function Home() {
         <div className="flex items-center justify-center w-full h-[87px] border-b-3 border-[#F5F5F5] border-t-3 border-[#F5F5F5]">
           <h1 className="text-[#F5F5F5] text-center font-bold text-[40px] border-b-2 border-[#F5F5F5]">Serviços</h1>
         </div>
+        <ContainerService/>
       </section>
 
       <section id="contato" className=" scroll-mt-[87px] w-full h-full min-h-screen bg-pages-gradient">
