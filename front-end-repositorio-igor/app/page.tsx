@@ -17,6 +17,7 @@ import Navbar from "./components/nav";
 import ButtonProject from "./components/buttonsProject"
 import ContainerTec from "./components/containerTec"
 import ContainerService from "./components/containerService"
+import FooterContact from "./components/footerContact";
 
 export default function Home() {
 
@@ -32,6 +33,11 @@ export default function Home() {
   return (
     <>
       <Navbar />
+
+
+
+
+
 
       {/* Container Text */}
       <section id="inicio" className="scroll-mt-[87px] flex w-full h-full min-h-screen bg-home-gradient">
@@ -96,6 +102,11 @@ export default function Home() {
           <Image src={IconDeveloper} alt="Developer" className="hidden md:block md:absolute md:top-[183px] object-contain" />
         </div>
       </section>
+
+
+
+
+
 
       {/* Section Project */}
       <section id="projetos" className=" scroll-mt-[87px] w-full h-full min-h-screen bg-pages-gradient">
@@ -175,6 +186,11 @@ export default function Home() {
         </div>
       </section>
 
+
+
+
+
+
       <section id="sobreMim" className=" scroll-mt-[87px] w-full h-full min-h-screen bg-pages-gradient">
         {/* Título página */}
         <div className="flex items-center justify-center w-full h-[87px] border-b-3 border-[#F5F5F5] border-t-3 border-[#F5F5F5]">
@@ -226,27 +242,43 @@ export default function Home() {
         </div>
       </section>
 
+
+
+
+
+
       <section id="tecnologias" className="scroll-mt-[87px] w-full h-full min-h-screen bg-pages-gradient">
         {/* Título página */}
         <div className="flex items-center justify-center w-full h-[87px] border-b-3 border-[#F5F5F5] border-t-3 border-[#F5F5F5]">
           <h1 className="text-[#F5F5F5] text-center font-bold text-[40px] border-b-2 border-[#F5F5F5]">Tecnologias</h1>
         </div>
-          <ContainerTec/>
+        <ContainerTec />
       </section>
+
+
+
+
+
 
       <section id="servicos" className=" scroll-mt-[87px] w-full h-full min-h-screen bg-pages-gradient">
         {/* Título página */}
         <div className="flex items-center justify-center w-full h-[87px] border-b-3 border-[#F5F5F5] border-t-3 border-[#F5F5F5]">
           <h1 className="text-[#F5F5F5] text-center font-bold text-[40px] border-b-2 border-[#F5F5F5]">Serviços</h1>
         </div>
-        <ContainerService/>
+        <ContainerService />
       </section>
+
+
+
+
+
 
       <section id="contato" className=" scroll-mt-[87px] w-full h-full min-h-screen bg-pages-gradient">
         {/* Título página */}
         <div className="flex items-center justify-center w-full h-[87px] border-b-3 border-[#F5F5F5] border-t-3 border-[#F5F5F5]">
           <h1 className="text-[#F5F5F5] text-center font-bold text-[40px] border-b-2 border-[#F5F5F5]">Contato</h1>
         </div>
+        <FooterContact />
       </section>
 
     </>
