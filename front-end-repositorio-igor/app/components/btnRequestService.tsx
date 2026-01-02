@@ -30,15 +30,8 @@ ${service}
             <div className="flex p-2 w-[252px] h-[56px] items-center justify-center">
                 <button
                     onClick={handleZap}
-                    className="flex gap-1 text-[#F5F5F5] text-[18px] border-b-[1.2px] border-[#F5F5F5] font-semibold cursor-pointer hover:tracking-wide duration-200"
-                >
-                    VAMOS CONVERSAR
-                    <Image
-                        src={IconWhatsappWhiteLogo}
-                        alt="IconWhatsApp"
-                        width={24}
-                        height={24}
-                    />
+                    className="flex gap-1 text-[#F5F5F5] text-[18px] border-b-[1.2px] border-[#F5F5F5] font-semibold cursor-pointer hover:tracking-wide duration-200">VAMOS CONVERSAR 
+                    <Image src={IconWhatsappWhiteLogo} alt="IconWhatsApp" width={24} height={24}/>
                 </button>
             </div>
         </section>

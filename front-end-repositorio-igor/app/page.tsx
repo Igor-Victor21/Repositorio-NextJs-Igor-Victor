@@ -180,10 +180,17 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+
+
         {/* Container button see more */}
-        <div className="flex justify-end items-end h-full relative">
+        
+        {/* <div className="flex justify-end items-end h-full relative">
           <button onClick={() => router.push("./projects")} className="text-[#F5F5F5] text-[18px] font-semibold border-b-[1.2px] border-[#F5F5F5] m-[20px] cursor-pointer hover:tracking-wide duration-200">VER MAIS {">>>"}</button>
-        </div>
+        </div> */}
+
+
+
       </section>
 
 
