@@ -16,7 +16,7 @@ export default function ContainerService() {
 
     return (
         <section className="pb-5">
-            <div className="flex items-center justify-center flex-col mx-auto md:mt-[5%] md:w-[1104px] md:h-[539px]">
+            <div className="flex items-center justify-center flex-col mx-auto md:mt-[7%] md:w-[1104px] md:h-[539px]">
                 <div className="md:flex md:flex-row gap-[27px] md:m-[15px]">
                     <div className="w-[350px] h-[300px] mb-[5px] border-2 border-[#D9D9D9] rounded-[15px] m-[20px]">
                         <div className="m-[10px]">

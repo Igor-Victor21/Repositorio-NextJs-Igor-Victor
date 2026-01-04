@@ -40,7 +40,7 @@ export default function Home() {
 
 
       {/* Container Text */}
-      <section id="inicio" className="scroll-mt-[87px] flex w-full h-full min-h-screen bg-home-gradient">
+      <section id="inicio" className="scroll-mt-[87px] flex w-full h-full min-h-screen bg-home-gradient md:items-center">
         <div className="flex flex-col w-full h-auto px-4 my-[143px] bg-transparent md:max-w-[1123px] md:mx-[101px] md:my-[143px] md:px-0">
           <p className="text-[#D5D5D5] text-[20px]">
             Desenvolvo soluções <span className="font-bold text-[#F5F5F5]">web e mobile</span> que transformam ideias em <span className="font-bold text-[#F5F5F5]">produtos reais.</span>
@@ -77,7 +77,7 @@ export default function Home() {
           <br />
 
           {/* Container Buttons */}
-          <div className="flex flex-col gap-[40px] md:flex-row">
+          <div className="flex flex-col gap-[40px] md:mt-[20px] md:flex-row">
             <div className="flex p-2 rounded-[50px] bg-[#F5F5F5] w-[252px] h-[56px] items-center justify-center">
               <button onClick={handleZap} className="flex gap-1 text-[#121212] font-medium cursor-pointer hover:tracking-wide duration-200">VAMOS CONVERSAR <Image src={IconWhatsApp} alt="IconWhatsApp" width={24} height={24} /></button>
             </div>
