@@ -31,7 +31,7 @@ export default function Navbar({ }) {
     const [showToast, setShowToast] = useState(false)
 
     return (
-        <section className="bg-nav-gradient w-screen max-h-[87px] h-[87px] fixed top-0 z-50 border-b-1 border-[#F5F5F5]">
+        <section className="bg-nav-gradient w-full max-w-screen max-h-[87px] h-[87px] fixed top-0 z-50 border-b-1 border-[#F5F5F5]">
             {/* Mobile */}
             <div className="flex items-center justify-between h-full px-6 md:hidden">
                 <Image src={LogoSite} alt="logo" width={180} height={50} />
