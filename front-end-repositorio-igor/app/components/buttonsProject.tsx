@@ -22,14 +22,14 @@ export default function ButtonsProject() {
     return (
         <section>
             <div className="flex flex-row gap-[10px] md:mb-[20px]">
-                    <div className="flex p-2 rounded-[50px] bg-[#F5F5F5] w-[128.76px] md:w-[168.76px] h-[46px] items-center justify-center">
+                    {/* <div className="flex p-2 rounded-[50px] bg-[#F5F5F5] w-[128.76px] md:w-[168.76px] h-[46px] items-center justify-center">
                         <button onClick={toastButton} className="flex gap-1 text-[#121212] font-medium cursor-pointer hover:tracking-wide duration-200">SITE <Image src={IconLink} alt="IconWhatsApp" width={24} height={24} /></button>
                         {showToast && (
                             <div className="flex flex-col fixed w-[45vw] md:w-[45vw] xl:w-[15vw] left-1/2 -translate-x-1/2 bottom-6 bg-red-500 p-4 z-50 rounded-lg">
                                 <p className="text-[12px] font-bold text-white">Site indisponível...</p>
                             </div>
                         )}
-                    </div>
+                    </div> */}
                 <div className="flex p-2 rounded-[50px] bg-[#F5F5F5] w-[184.11px] h-[46px] items-center justify-center ">
                     <Link href="https://github.com/Igor-Victor21/Documentacao-VC-Brinquedos-Espumados" target="_blank" rel="noopener noreferrer" className="flex gap-1 text-[#121212] font-medium cursor-pointer hover:tracking-wide duration-200">DOCUMENTAÇÃO
                         <Image src={IconEye} alt="IconWhatsApp" width={24} height={24} />
