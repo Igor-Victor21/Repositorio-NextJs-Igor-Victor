@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import IconNextJs from "../assets/IconNext.js.png"
 import IconReact from "../assets/IconReact.png"
-import IconFlutter from "../assets/IconFlutter.png"
+import IconJavaScript from "../assets/IconJavaScript.png"
 import IconTypeScript from "../assets/IconTypeScript.png"
 import IconNodeJs from "../assets/IconNode.js.png"
 import IconSQLServer from "../assets/IconSqlServer.png"
@@ -48,16 +48,16 @@ export default function ContainerTec() {
                     </div>
                     <div className="w-[350px] h-[250px] mb-[5px] border-2 border-[#D9D9D9] rounded-[15px] m-[20px]">
                         <div className="m-[10px]">
-                            <h2 className="text-[#F5F5F5] text-[18px] font-bold text-center">FLUTTER</h2>
+                            <h2 className="text-[#F5F5F5] text-[18px] font-bold text-center">JAVASCRIPT</h2>
                         </div>
                         <div className="flex justify-center">
-                            <Image src={IconFlutter} alt="Icon" width={80} height={80} />
+                            <Image src={IconJavaScript} alt="Icon" width={80} height={80} className="rounded-[5px]" />
                         </div>
                         <div className="flex justify-center">
                             <hr className="border-[1px] border-[#F5F5F5] w-[90%] m-[15px]" />
                         </div>
                         <div>
-                            <p className="text-[#F5F5F5] text-[14px] font-normal text-center p-[4px]">Framework para desenvolver apps Android e iOS com excelente performance usando apenas um código.</p>
+                            <p className="text-[#F5F5F5] text-[14px] font-normal text-center p-[4px]">Linguagem de programação usada para criar páginas web interativas, tornando sites mais dinâmicos e funcionais.</p>
                         </div>
 
 

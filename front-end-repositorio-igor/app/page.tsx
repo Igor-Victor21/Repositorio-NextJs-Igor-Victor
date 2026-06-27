@@ -82,7 +82,7 @@ export default function Home() {
               <button onClick={handleZap} className="flex gap-1 text-[#121212] font-medium cursor-pointer hover:tracking-wide duration-200">VAMOS CONVERSAR <Image src={IconWhatsApp} alt="IconWhatsApp" width={24} height={24} /></button>
             </div>
             <div className="flex p-2 rounded-[50px] bg-[#F5F5F5] w-[231px] h-[56px] items-center justify-center ">
-              <button onClick={() => window.open("/Curriculo-Igor-Victor.pdf", "_blank")} className="flex gap-1 text-[#121212] font-medium cursor-pointer hover:tracking-wide duration-200">VER CURRÍCULO <Image src={IconCurriculo} alt="IconWhatsApp" width={24} height={24} /></button>
+              <button onClick={() => window.open("/Curriculo Igor Victor da Silva Full Stack.pdf", "_blank")} className="flex gap-1 text-[#121212] font-medium cursor-pointer hover:tracking-wide duration-200">VER CURRÍCULO <Image src={IconCurriculo} alt="IconWhatsApp" width={24} height={24} /></button>
             </div>
 
             {/* Social media */}
@@ -197,7 +197,7 @@ export default function Home() {
 
 
 
-
+      {/* Section About me */}
       <section id="sobreMim" className=" scroll-mt-[87px] w-full h-full min-h-screen bg-pages-gradient">
         {/* Título página */}
         <div className="flex items-center justify-center w-full h-[87px] border-b-3 border-[#F5F5F5] border-t-3 border-[#F5F5F5]">
@@ -253,7 +253,7 @@ export default function Home() {
 
 
 
-
+      {/* Section technology */}
       <section id="tecnologias" className="scroll-mt-[87px] w-full h-full min-h-screen bg-pages-gradient">
         {/* Título página */}
         <div className="flex items-center justify-center w-full h-[87px] border-b-3 border-[#F5F5F5] border-t-3 border-[#F5F5F5]">
